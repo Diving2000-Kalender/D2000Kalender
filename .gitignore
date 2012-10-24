@@ -2,6 +2,15 @@
 ## Eclipse
 #################
 
+admin/
+images/
+kalender/
+phpadmin/
+ubivox/
+mysqlConfig.php
+ubivoxInit.php
+
+
 *.pydevproject
 .project
 .metadata

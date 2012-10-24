@@ -1,0 +1,232 @@
+body {
+background-color: #1b50b1;
+font-family: verdana, arial;
+font-size: 12px;
+color: #FFFFFF;
+
+}
+
+.kalenderTable 
+{
+	font-family: verdana, arial;
+	font-size: 12px;
+	color: #000000;
+	background-image: url(images/D2000.png); 
+	background-repeat: no-repeat;
+	background-position: 60px;
+}
+
+
+#availability_status {
+	font-size:14px;
+	margin-left:10px;
+	color: #FFFFFF;
+}
+
+input.submitBT {
+	width: 120px; 
+	height: 40px; 
+	font-size: 18px; 
+	color: #000000;
+}
+
+input.form_element {
+	width: 221px;
+	background: transparent url('images/bg.jpg') no-repeat;
+	color : #000099;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+}
+label {
+	width: 125px;
+	float: left;
+	text-align: left;
+	margin-right: 0.5em;
+	display: block;
+	color: #FFFFFF;
+	font-family: verdana, arial;	
+}
+.style_form {
+	margin:4px;
+}
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	margin-top:200px;
+}
+
+
+.table.sample {
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: separate;
+	background-color: white;
+}
+.table.sample th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+
+
+.border {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+
+.bgcolor {
+background-color: #FFFFFF;
+font-family: verdana, arial;
+color: #000000;
+} 
+
+
+.text {
+font-family: verdana, arial;
+font-size: 12px;
+color: #000000;
+}
+
+.week {
+	font-family: verdana, arial;
+	font-size: 9px;
+	color: #a0a0a0;	
+}
+
+.klubExpire 
+{
+font-family: verdana, arial;
+font-size: 12px;
+color: #000000;
+font-weight: bold;
+}
+
+.textInfo {
+font-family: verdana, arial;
+font-size: 28px;
+color: #FFFFFF;
+}
+
+.toDay {
+font-family: verdana, arial;
+font-size: 12px;
+font-weight: bold;
+color: #000000;
+}
+
+
+
+.fejl {
+font-family: verdana, arial;
+font-size: 12px;
+color: #000000;
+padding: 2px;
+color: #FFFFFF;
+background-color: #FF0000;
+text-align: center;
+}
+
+
+.godkendt {
+font-family: verdana, arial;
+font-size: 12px;
+color: #000000;
+padding: 2px;
+color: #FFFFFF;
+background-color: #03AD0B;
+text-align: center;
+}
+
+
+/* The hint to Hide and Show */
+.hint {
+   	display: none;
+    position: relative;
+    right: 0px;
+    width: 200px;
+    margin-top: -4px;
+    border: 1px solid #c93;
+    padding: 10px 12px;
+    background: #ffc url(images/pointer.gif) no-repeat -10px 5px;
+	color: #000000;	
+}
+
+/* The pointer image is hadded by using another span */
+.hint .hint-pointer {
+    position: absolute;
+	color: #000000;
+    left: -10px;
+    top: 5px;
+    width: 10px;
+    height: 19px;
+    background: url(images/pointer.gif) left top no-repeat;
+}
+
+
+
+
+
+
+
+
+a {
+font-family: Verdana, Arial;
+font-size: 12px;
+color: #FFFFFF;
+font-weight: bold;
+}
+
+a:link {
+color: #FFFFFF;
+text-decoration: underline;
+font-weight: bold;
+}
+
+a:visited {
+Color: #FFFFFF;
+text-decoration: underline;
+background-color:transparent;
+font-weight: bold;
+}
+
+
+a:hover {
+color: #FFFFFF;
+font-size: 12px;
+text-decoration:underline;
+font-weight: bold;
+}
+
+
+
+a:active {
+
+color: #FFFFFF;
+
+}
+
+#wrap {
+   width:280px;
+   margin:1;
+}
+#left_col {
+   float:left;
+   width:200px;
+
+}
+#right_col {
+   float:right;
+   width:80px;
+   
+}
